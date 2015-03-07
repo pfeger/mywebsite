@@ -1,0 +1,158 @@
+/* CLEARFIXES */
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
+
+
+
+/* DESKTOP STYLES */
+
+* {
+	margin: 0;
+}
+
+html, body {
+	max-height: 100%;
+	width: 100%;
+}
+
+body {
+	margin: 0 auto;
+	background-image: url("../images/background.jpg");
+	background-size: cover;
+	background-repeat: none;
+	background-attachment: fixed;
+}
+
+.wrapper {
+  min-height: 100%;
+  /* equal to footer height */
+  margin-bottom: -7.813em; 
+}
+
+img {
+	display: block;
+	margin: 15% auto 0 auto;	
+	padding-bottom: 2.5em;
+}
+
+	.connect img {
+		display: block;
+		margin: 0 auto;
+	}
+
+h1 {
+	margin: 0 auto;
+	padding-bottom: 1.875em;
+	width: 48%;
+	text-align: center;
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: 0.375em;
+	font-family: 'Roboto', helvetica neue, helvetica, sans-serif;
+	font-weight: 400;
+	font-size: 2.0em;
+}
+
+.stroke {
+	margin: 0 auto;
+	height: 1px;
+	width: 43.750em;
+	background-color: white;
+	/* gradient */
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIwIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjE1JSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9Ijg1JSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmZmZmZmYiIHN0b3Atb3BhY2l0eT0iMCIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(left,  rgba(255,255,255,0) 0%, rgba(255,255,255,1) 15%, rgba(255,255,255,1) 85%, rgba(255,255,255,0) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear,left top, right top, color-stop(0%,rgba(255,255,255,0)), color-stop(15%,rgba(255,255,255,1)), color-stop(85%,rgba(255,255,255,1)), color-stop(100%,rgba(255,255,255,0))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 15%,rgba(255,255,255,1) 85%,rgba(255,255,255,0) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 15%,rgba(255,255,255,1) 85%,rgba(255,255,255,0) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 15%,rgba(255,255,255,1) 85%,rgba(255,255,255,0) 100%); /* IE10+ */
+	background: linear-gradient(to right,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 15%,rgba(255,255,255,1) 85%,rgba(255,255,255,0) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#00ffffff',GradientType=1 ); /* IE6-8 */
+
+}
+
+h2 {
+	width: 43.750em;
+	margin: 0 auto;
+	text-align: center;
+	font-family: 'Roboto', helvetica neue, helvetica, sans-serif;
+	font-size: 1.375em;
+	font-weight: 300;
+	letter-spacing: 0.063em;
+	line-height: 1.875em;
+	color: rgba(255,255,255,0.85);
+	padding-top: 1.563em;
+}
+
+	h2 a {
+		color: white;
+		text-decoration: none;
+		font-weight: 400;
+		letter-spacing: 0.063em;
+	}
+
+
+footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+    height: 7.813em;
+    margin: 0 auto;
+}
+
+.connect {
+	margin: 0 auto;
+	width: 14.000em;
+}
+
+	a.socialmedia {
+		width: 2.250em;
+		height: 2.250em;
+		margin: 0 0.500em 0.938em 0.500em;
+		border: 0.125em solid white;
+		border-radius: 50%;
+		float: left;
+		background-color: rgba(0,0,0,0);
+	}
+
+		a.socialmedia img {
+			display: block;
+			margin: 0 auto;
+			margin-top: 0.438em;
+		}
+
+		a.socialmedia:hover {
+			background-color: rgba(0,0,0,0.35);
+		}
+
+
+p {
+	width: 100%;
+	margin: 0 auto;
+	padding: 1.250em 0 1.250em 0;
+	text-align: center;
+	font-family: 'Roboto', helvetica neue, helvetica, sans-serif;
+	font-size: 1.125em;
+	font-weight: 100;
+	font-style: italic;
+	letter-spacing: 0.063em;
+	line-height: 1.875em;
+	color: rgba(255,255,255,0.9);
+}
+
+
+
+
+/* LAPTOP RANGE */
+
+@media screen and (max-width: 87.500em) {
+	img {
+		margin: 10% auto 0 auto;	
+	}
+}

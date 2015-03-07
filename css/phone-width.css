@@ -1,0 +1,43 @@
+/*PHONE RANGE*/
+
+@media screen and (max-width: 640px) {
+
+	img.brand {
+		width: 5.625em;
+		height: 5.625em;
+	}
+
+	h1 {
+		width: 18.750em;
+		font-size: 1.750em;
+	}
+
+	.stroke {
+		width: 94%;
+	}
+
+	h2 {
+		width: 88%;
+		font-size: 1.125em;
+		line-height: 2.125em;
+		font-weight: 300;
+	}
+
+		h2 a {
+			font-weight: 400;
+		}
+
+	.connect {
+		width: 14.000em;
+	}
+
+	p {
+		font-size: 1.0em;
+	}
+
+	footer {
+	    height: 7.813em;
+	    padding-bottom: 0.625em;
+	}
+
+}
